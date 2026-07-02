@@ -39,9 +39,7 @@ A React-based web app that explores the solar system with real planetary data an
 | Ugoh     | https://github.com/ugohkim-art                 |
 | Zulaihat | https://github.com/zulleeyyy                   |
 | Victor   | https://github.com/vini247                     |
-
----
-
+| Anita    |https://github.com/anitacharles540/Anita        |
 ## 🧩 Components & Ownership
 
 | Component      | Description                                               | Built By      |
