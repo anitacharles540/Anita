@@ -1,13 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="Group 5" content="width=device-width, initial-scale=1.0" />
-    <title>solar-system-project</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TheCapGirl.ng | Coming Soon</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+    overflow:hidden;
+}
+
+.container{
+    max-width:700px;
+    padding:20px;
+}
+
+h1{
+    font-size:60px;
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.8;
+    color:#ddd;
+}
+
+button{
+    margin-top:35px;
+    padding:15px 40px;
+    border:none;
+    border-radius:50px;
+    background:#d4af37;
+    color:#000;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+.socials{
+    margin-top:40px;
+}
+
+.socials a{
+    color:#d4af37;
+    text-decoration:none;
+    margin:0 10px;
+    font-size:18px;
+}
+
+.cap{
+    font-size:80px;
+    margin-bottom:20px;
+    animation:float 3s infinite ease-in-out;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(-12px);}
+100%{transform:translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="cap">🧢</div>
+
+<h1>TheCapGirl.ng</h1>
+
+<h2>COMING SOON</h2>
+
+<p>
+Something amazing is on the way...
+<br><br>
+Premium caps designed for confidence, comfort, and style.
+<br><br>
+Stay tuned for our official launch.
+</p>
+
+<button onclick="alert('Launching Soon! Stay Connected ❤️')">
+Notify Me
+</button>
+
+<div class="socials">
+<a href="#">Instagram</a>
+<a href="#">TikTok</a>
+<a href="#">WhatsApp</a>
+</div>
+
+</div>
+
+</body>
 </html>
